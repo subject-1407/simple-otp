@@ -65,7 +65,7 @@ def truncate_key_file(key_file, used_size):
 
 def main():
     if len(sys.argv) != 4:
-        print("Usage: otp.py <input_file> <key_file> <output_file>")
+        print(f"Usage: {sys.argv[0]} <input_file> <key_file> <output_file>")
         sys.exit(1)
 
     input_file = sys.argv[1]
